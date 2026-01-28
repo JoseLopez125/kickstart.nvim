@@ -166,6 +166,19 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Convert tabs to spaces
+vim.opt.expandtab = true
+
+-- Set the number of spaces that a <Tab> counts for
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+
+-- Set the size of an indent (when using >> or <<)
+vim.opt.shiftwidth = 4
+
+-- Vertical bar at a set character count
+vim.opt.colorcolumn = '80,100' -- in this case a vertical bar at characters 80 and 100
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
